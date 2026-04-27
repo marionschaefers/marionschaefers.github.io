@@ -30,46 +30,6 @@
                            U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
                            U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
-        @font-face {
-            font-family: 'Playfair Display';
-            font-style: normal;
-            font-weight: 400 700;
-            font-display: swap;
-            src: url('fonts/playfair-latin-ext.woff2') format('woff2');
-            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
-                           U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
-                           U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        @font-face {
-            font-family: 'Playfair Display';
-            font-style: normal;
-            font-weight: 400 700;
-            font-display: swap;
-            src: url('fonts/playfair-latin.woff2') format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-                           U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
-                           U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-        @font-face {
-            font-family: 'Playfair Display';
-            font-style: italic;
-            font-weight: 400 700;
-            font-display: swap;
-            src: url('fonts/playfair-italic-latin-ext.woff2') format('woff2');
-            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
-                           U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
-                           U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        @font-face {
-            font-family: 'Playfair Display';
-            font-style: italic;
-            font-weight: 400 700;
-            font-display: swap;
-            src: url('fonts/playfair-italic-latin.woff2') format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-                           U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
-                           U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
 
         /* ══════════════════════════════════════
            RESET & VARIABLEN
@@ -128,7 +88,8 @@
         }
 
         .nav-brand {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
             font-size: 1.05rem;
             color: var(--anthracite);
             line-height: 1.2;
@@ -190,14 +151,15 @@
         }
 
         .hero h1 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
             font-size: clamp(2.6rem, 4.5vw, 3.8rem);
             line-height: 1.13;
             color: var(--anthracite);
             margin-bottom: 1.5rem;
         }
 
-        .hero h1 em { font-style: italic; color: var(--gold); }
+        .hero h1 em { font-style: normal; font-weight: 700; color: var(--gold); }
 
         .hero-sub {
             font-size: 1.05rem;
@@ -271,7 +233,8 @@
         }
 
         .section-title {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
             font-size: clamp(1.9rem, 3.5vw, 2.6rem);
             color: var(--anthracite);
             line-height: 1.2;
@@ -301,9 +264,9 @@
 
         .about-sig {
             margin-top: 2rem;
-            font-family: 'Playfair Display', serif;
-            font-size: 1.45rem;
-            font-style: italic;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
+            font-size: 1.3rem;
             color: var(--gold);
         }
 
@@ -369,7 +332,8 @@
         }
 
         .product-card h3 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
             font-size: 1.3rem;
             color: var(--anthracite);
             margin-bottom: 0.7rem;
@@ -498,7 +462,8 @@
         }
 
         .legal-inner h2 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
             font-size: 2rem;
             color: var(--anthracite);
             margin-bottom: 2rem;
@@ -507,7 +472,8 @@
         }
 
         .legal-inner h3 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
             font-size: 1.15rem;
             color: var(--anthracite);
             margin: 2rem 0 0.75rem;
@@ -667,7 +633,7 @@
         <span class="eyebrow">Die Geschichte dahinter</span>
         <div class="gold-rule"></div>
         <h2 class="section-title">Inspiriert von der Natur,<br>erzählt mit Herz</h2>
-        <p>Ich bin Marion – Bäuerin, Mama und Kreative aus Leidenschaft. Paulina, die kleine Biene, ist auf unserem Hof entstanden: aus der Stille der Natur, aus dem Summen der Bienen und aus der Freude daran, Kindern etwas Liebevolles in die Hand zu geben.</p>
+        <p>Ich bin Marion – Imkerin, Naturliebhaberin und Kreative aus Leidenschaft. Ich lebe auf einem Hof, umgeben von meinen Tieren, täglich in der Natur. Aus dieser Welt ist Paulina, die kleine Biene, entstanden: aus dem Summen der Bienen, dem Duft der Blumen und der Freude daran, etwas Liebevolles zu erschaffen.</p>
         <p>Jedes meiner Produkte ist mit Sorgfalt gestaltet – als digitaler Download, sofort verfügbar, und als Geschenk, das von Herz zu Herz geht.</p>
         <p class="about-sig">— Marion Schäfers</p>
     </div>
@@ -724,25 +690,11 @@
         <h2 class="section-title">Neue Produkte,<br>kleine Geschichten &amp; Überraschungen</h2>
         <p class="nl-desc">Trag dich ein und erfahre als Erste von neuen Produkten, saisonalen Angeboten und kleinen Einblicken hinter die Kulissen unseres Hofes.</p>
 
-        <!--
-            FORMSPREE NEWSLETTER-FORMULAR
-            So richtest du es ein (einmalig, 5 Minuten):
-            1. Gehe zu https://formspree.io und melde dich mit ms.honeybeemoments@gmail.com an
-            2. Erstelle ein neues Formular ("New Form")
-            3. Kopiere deine Form-ID (sieht so aus: xpzvwkqr)
-            4. Ersetze "DEINE_FORM_ID" unten durch deine ID
-        -->
-        <form class="nl-form"
-              action="https://formspree.io/f/DEINE_FORM_ID"
-              method="POST">
-            <input type="hidden" name="_subject" value="Neue Newsletter-Anmeldung – HoneyBeeMoments">
-            <input type="hidden" name="_language" value="de">
-            <input type="text" name="_gotcha" style="display:none">
-            <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required autocomplete="email">
-            <button type="submit">Anmelden</button>
-        </form>
+        <a href="mailto:ms.honeybeemoments@gmail.com?subject=Newsletter%20Anmeldung&body=Hallo%20Marion%2C%0A%0Aich%20m%C3%B6chte%20Paulinas%20Newsletter%20abonnieren%20und%20als%20Erste%20von%20neuen%20Produkten%20erfahren.%0A%0AMeine%20E-Mail-Adresse%3A%20" class="btn-primary">
+            Jetzt per E-Mail anmelden
+        </a>
 
-        <p class="nl-note">Kein Spam. Nur Paulina. Jederzeit abmeldbar. ♥</p>
+        <p class="nl-note">Ein Klick öffnet dein E-Mail-Programm – du schickst mir kurz eine Nachricht. Kein Konto, kein Aufwand. ♥</p>
     </div>
 </section>
 
@@ -844,18 +796,17 @@
             <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub-Datenschutzrichtlinien</a>.
         </p>
 
-        <h3>3. Newsletter / Kontaktformular</h3>
+        <h3>3. Newsletter-Anmeldung</h3>
         <p>
-            Die Newsletter-Anmeldung auf dieser Website wird über den Dienst Formspree
-            (Formspree, Inc., 2261 Market Street #4018, San Francisco, CA 94114, USA) verarbeitet.
-            Wenn du dich für den Newsletter anmeldest, wird deine E-Mail-Adresse an Formspree
-            übermittelt und dort gespeichert.
+            Die Newsletter-Anmeldung erfolgt per E-Mail direkt an
+            <a href="mailto:ms.honeybeemoments@gmail.com">ms.honeybeemoments@gmail.com</a>.
+            Es werden keine personenbezogenen Daten an Drittanbieter übermittelt.
         </p>
         <p>
             <strong>Zweck:</strong> Versand von Informationen über neue Produkte und Angebote.<br>
             <strong>Rechtsgrundlage:</strong> Deine Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO.<br>
             <strong>Widerruf:</strong> Du kannst deine Einwilligung jederzeit widerrufen, indem du
-            uns eine E-Mail sendest oder auf „Abmelden" in unserem Newsletter klickst.
+            uns eine E-Mail mit dem Betreff „Abmelden" sendest.
         </p>
 
         <h3>4. Schriftarten</h3>
